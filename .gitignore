@@ -1,0 +1,6 @@
+.DS_Store
+config.tf
+auth
+terraform.tfstate
+terraform.tfstate.backup
+
