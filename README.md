@@ -50,7 +50,7 @@ Please perform these configurations in the order listed.
 ### SABnzbd
 
 1. Go to `http://<machine_ip>:8080` and complete the intial set up (including adding your Usenet server credentials), taking note to create a username and password for security purposes.
-2. Go to SABnzbd config at `http://<machine_ip>:8080/config/folders/`, and set "Temporary Download Folder" to `/home/downloads/sabnzbd/incomplete` and the "Completed Downlaod Folder" to `/home/downloads/sabnzbd/complete`.
+2. Go to SABnzbd config at `http://<machine_ip>:8080/config/folders/`, and set "Temporary Download Folder" to `/home/downloads/sabnzbd/incomplete` and the "Completed Download Folder" to `/home/downloads/sabnzbd/complete`.
 3. On this same config page, take note of the "API Key." You'll need to enter this in both Sonarr and Radarr in the next steps.
 
 ### Sonarr
