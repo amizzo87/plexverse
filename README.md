@@ -10,7 +10,7 @@ Automated deployment using [Terraform](https://www.terraform.io)
   - Create a new project, taking note of the project ID
   - Get authentication JSON file:
     - Log into [Google Developers Console](https://console.developers.google.com/), select your project
-    - Select API Manager View, click "Credentials" on left, then "Create Credentials," then finally "Service Account Key"
+    - From the left hand side menu, select IAM & Admin, then choose "Credentials" from the menu, then "Create Credentials," then finally "Service Account Key"
     - Select "Compute Engine default service account" in the "Service Account" dropdown, select "JSON" as key type
     - Click "Create" to download the credentials to a path you'll enter in `config.ts`
 
