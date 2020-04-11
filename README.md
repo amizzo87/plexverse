@@ -1,4 +1,4 @@
-# Plex in Google Cloud
+# CURRENTLY IN THE PROCESS OF BEING REFACTORED
 
 Get Plex + Sonarr + Radarr + SABnzbd automatically installed in Google Cloud, with near-infinite (and affordable) storage provided by Google Nearline Storage. 
 
