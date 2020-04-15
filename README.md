@@ -25,7 +25,7 @@ Automated deployment using [Terraform](https://www.terraform.io)
 2. Enter `plexverse/providers/[PROVIDER]` depending on which cloud platform you'd like to deploy to.
 3. Change/populate variables in `variables.tf` as desired. 
 4. Run `terraform init` then `terraform plan` to confirm everything is set properly.
-5. Run `terraform apply` to create the Plexverse stack, taking note of the `<machine_ip>`cd . displayed at the end of creation.
+5. Run `terraform apply` to create the Plexverse stack, taking note of the `<machine_ip>` displayed at the end of creation.
 
 ## Post-Installation 
 Please perform these configurations in the order listed.
