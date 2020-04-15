@@ -61,3 +61,16 @@ Please perform these configurations in the order listed.
 - Some kind of race condition exists in whereby `apt-get update` sometimes doesn't finish before `apt-get install aptdcon` is triggered, causing the installation to fail entirely. 
 - Google Cloud support is very close but still experiencing errors during initial setup. However, once these errors occur, exiting out of the terraform shell with `ctrl+c` and re-running `terraform apply` seems to make this depoyment successful.
 - Any help with these would be greatly appreciated!
+
+- Add torrent support (!)
+- Expand to more cloud providers (?)
+
+## Services
+
+- Plex (Media) - if remote management enabled, access at `http://<machine_ip>:32400/web`
+
+- Sonarr (TV) - `http://<machine_ip>/sonarr`
+
+- Radarr (Movies) - `http://<machine_ip>/radarr`
+
+- SABnzbd (Downloader) - `http://<machine_ip>/sabnzbd`
