@@ -53,7 +53,7 @@ Please perform these configurations in the order listed.
 1. Go to `http://<machine_ip>/radarr` then to "Settings." 
 2. Everything else is the same as with Sonarr (above), except make sure to add the path for downloaded movies as `/plexmedia/Movies`!
 
-## TODO
+## Todo
 - Automate post-installation steps
 - Include domain name support with automatic SSL certificate creation from Let's Encrypt
 
@@ -61,9 +61,6 @@ Please perform these configurations in the order listed.
 - Some kind of race condition exists in whereby `apt-get update` sometimes doesn't finish before `apt-get install aptdcon` is triggered, causing the installation to fail entirely. 
 - Google Cloud support is very close but still experiencing errors during initial setup. However, once these errors occur, exiting out of the terraform shell with `ctrl+c` and re-running `terraform apply` seems to make this depoyment successful.
 - Any help with these would be greatly appreciated!
-
-- Add torrent support (!)
-- Expand to more cloud providers (?)
 
 ## Services
 
