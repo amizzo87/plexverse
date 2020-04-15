@@ -1,6 +1,6 @@
-.DS_Store
-config.tf
-auth
+.terraform
 terraform.tfstate
 terraform.tfstate.backup
-
+.terraform.tfstate.lock.info
+auth
+.DS_Store
