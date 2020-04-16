@@ -4,6 +4,8 @@ Get Plex + Sonarr + Radarr + SABnzbd automatically installed in either AWS or Go
 
 Automated deployment using [Terraform](https://www.terraform.io)
 
+<a href="https://www.buymeacoffee.com/amizzo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Prerequisites
 - Install Terraform from [terraform.io](https://www.terraform.io/downloads.html) 
 - A Usenet account - [NewsgroupNinja](https://www.newsgroup.ninja/) recommended
@@ -71,3 +73,4 @@ Please perform these configurations in the order listed.
 - Radarr (Movies) - `http://<machine_ip>/radarr`
 
 - SABnzbd (Downloader) - `http://<machine_ip>/sabnzbd`
+
